@@ -1,0 +1,11 @@
+.statistics {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  
+    background-color: #ffffff;
+  
+    overflow: hidden;
+  }
