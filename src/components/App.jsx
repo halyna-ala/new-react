@@ -1,5 +1,5 @@
-import { Profile } from "components/Profile/Profile";
-import {User} from "components/Profile/Profile";
+import { Profile } from "./Profile/Profile.jsx";
+import user from "./Profile/user.json";
 
 
 export const App = () => {
@@ -7,11 +7,11 @@ export const App = () => {
   return (
     <div>
       <Profile 
-      username={User.username}
-      tag={User.tag}
-      location={User.location}
-      avatar={User.avatar}
-      stats={User.stats}/>
+      username={user.username}
+      tag={user.tag}
+      location={user.location}
+      avatar={user.avatar}
+      stats={user.stats}/>
     </div>
   );
 };
